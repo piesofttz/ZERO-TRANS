@@ -1,0 +1,37 @@
+name: ride_booking
+description: "ZERO TRANS - Premium Transportation & Ride Booking App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+  flutter_animate: ^4.5.2
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo/logo.jpeg"
+  adaptive_icon_background: "#0F172A"
+  adaptive_icon_foreground: "assets/logo/logo.jpeg"
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo/
